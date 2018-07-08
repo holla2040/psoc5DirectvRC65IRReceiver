@@ -14,4 +14,4 @@ A PSoC5 hardware-only IR decoder for DirecTV RC65 remote control
  * The first header mark should be 6000us but repeat codes should only be 3000us.
  */
 
-![DirecTV RC65 Remote Control](psoc5DirectvRC65IRReceiver.cydsn/images/DirecTV%20RC65x.jpg =200px)
+![DirecTV RC65 Remote Control](psoc5DirectvRC65IRReceiver.cydsn/images/DirecTV%20RC65x.jpg)
