@@ -19,4 +19,6 @@ A PSoC5 hardware-only IR decoder for DirecTV RC65 remote control
 
 ![TopDesign](psoc5DirectvRC65IRReceiver.cydsn/images/DirecTV%20TopDesign.png)
 
+![TopDesign](psoc5DirectvRC65IRReceiver.cydsn/images/buildResults.png)
+
 ![TopDesign](psoc5DirectvRC65IRReceiver.cydsn/images/console.png)
