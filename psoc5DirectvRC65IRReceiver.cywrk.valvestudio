@@ -210,14 +210,16 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\psoc5DirectvRC65IRReceiver.cydsn\TopDesign\TopDesign.cysch" />
+</OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1849, 935" SelectedTabbedMdiWindow="1b663cd2-9d53-4ad0-b070-d4823cfc10e0"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="1b663cd2-9d53-4ad0-b070-d4823cfc10e0" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1565, 935" SelectedTabbedMdiWindow="3e0d178a-ccf7-4e84-8d43-ad5fd287342f"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="1b663cd2-9d53-4ad0-b070-d4823cfc10e0" /><DocumentWindow Key="C:\tmp\psoc5DirectvRC65IRReceiver\psoc5DirectvRC65IRReceiver.cydsn\TopDesign\TopDesign.cysch" Guid="3e0d178a-ccf7-4e84-8d43-ad5fd287342f" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
