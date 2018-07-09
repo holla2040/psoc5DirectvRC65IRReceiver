@@ -404,6 +404,21 @@
 <dep name=".\CortexM3\ARM_GCC_541\Debug\main.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\cymetadata.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\Clock_1.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\IRInput.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\UART.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\UART_PM.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\UART_INT.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\UART_BOOT.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\DecoderShiftReg.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\DecoderShiftReg_PM.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\bitEdge.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\bitValue.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\IRDurationTimer.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\IRDurationTimer_PM.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\isr_IR.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\pinIsrIR.o" />
+<dep name=".\CortexM3\ARM_GCC_541\Debug\UART_IntClock.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\Cm3Start.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o" />
@@ -413,21 +428,6 @@
 <dep name=".\CortexM3\ARM_GCC_541\Debug\cyPm.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\CySpc.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\cyutils.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\Clock_1.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\IRInput.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\UART.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\UART_PM.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\UART_INT.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\UART_BOOT.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\UART_IntClock.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\isr_IR.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\bitEdge.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\bitValue.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\DecoderShiftReg.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\DecoderShiftReg_PM.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\IRDurationTimer.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\IRDurationTimer_PM.o" />
-<dep name=".\CortexM3\ARM_GCC_541\Debug\pinIsrIR.o" />
 <dep name=".\CortexM3\ARM_GCC_541\Debug\psoc5DirectvRC65IRReceiver.a" />
 <dep name="${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" />
 </file>
@@ -469,9 +469,10 @@
 <name_val_pair name="Generated_Source\PSoC5\IRDurationTimer_PM.c" v="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="Generated_Source\PSoC5\pinIsrIR.c" v="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="C:\Users\valvestudio\Desktop\WorkspaceIRRemote\psoc5DirectvRC65IRReceiver.cydsn\CortexM3\ARM_GCC_541\Debug\psoc5DirectvRC65IRReceiver.hex" v="-mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name="C:\tmp\psoc5DirectvRC65IRReceiver\psoc5DirectvRC65IRReceiver.cydsn\CortexM3\ARM_GCC_541\Debug\psoc5DirectvRC65IRReceiver.hex" v="-mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects" />
 </name>
 </genericCmdLineData>
-<codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\valvestudio\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\valvestudio\Desktop\WorkspaceIRRemote\psoc5DirectvRC65IRReceiver.cydsn\psoc5DirectvRC65IRReceiver.cyprj -d CY8C5888LTI-LP097 -s C:\Users\valvestudio\Desktop\WorkspaceIRRemote\psoc5DirectvRC65IRReceiver.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
+<codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\valvestudio\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\tmp\psoc5DirectvRC65IRReceiver\psoc5DirectvRC65IRReceiver.cydsn\psoc5DirectvRC65IRReceiver.cyprj -d CY8C5888LTI-LP097 -s C:\tmp\psoc5DirectvRC65IRReceiver\psoc5DirectvRC65IRReceiver.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
 </CyGuid_b0374e30-ce3a-47f2-ad85-821643292c68>
 </dataGuid>
 <dataGuid v="597c5b74-0c46-4204-8b7f-96f3570671dc">
@@ -525,7 +526,7 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM3" v="131755672235347673" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM3" v="131755691358463802" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
@@ -695,8 +696,8 @@
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_psoc3_timer_v1_0\cy_psoc3_timer_v1_0.cyprimitive</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_psoc3_timer_v1_0\cy_psoc3_timer_v1_0.cysym</v>
 <v>.\psoc5DirectvRC65IRReceiver.cydwr</v>
-<v>..\..\..\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Em_EEPROM_Dynamic_v2_10\API\cy_em_eeprom.c</v>
-<v>..\..\..\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Em_EEPROM_Dynamic_v2_10\API\cy_em_eeprom.h</v>
+<v>C:\Users\valvestudio\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Em_EEPROM_Dynamic_v2_10\API\cy_em_eeprom.c</v>
+<v>C:\Users\valvestudio\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Em_EEPROM_Dynamic_v2_10\API\cy_em_eeprom.h</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_70\PSoC5\API\cm3gcc.ld</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_70\PSoC5\API\Cm3RealView.scat</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_70\PSoC5\API\Cm3Start.c</v>
@@ -743,15 +744,35 @@
 <v>Generated_Source\PSoC5\cyfitteriar.inc</v>
 <v>Generated_Source\PSoC5\cyfitter.h</v>
 <v>Generated_Source\PSoC5\cydisabledsheets.h</v>
-<v>Generated_Source\PSoC5\timerTrigger_aliases.h</v>
-<v>Generated_Source\PSoC5\timerTrigger.c</v>
-<v>Generated_Source\PSoC5\timerTrigger.h</v>
-<v>Generated_Source\PSoC5\timerOut_aliases.h</v>
-<v>Generated_Source\PSoC5\timerOut.c</v>
-<v>Generated_Source\PSoC5\timerOut.h</v>
-<v>Generated_Source\PSoC5\Timer_1.c</v>
-<v>Generated_Source\PSoC5\Timer_1.h</v>
-<v>Generated_Source\PSoC5\Timer_1_PM.c</v>
+<v>Generated_Source\PSoC5\Clock_1.c</v>
+<v>Generated_Source\PSoC5\Clock_1.h</v>
+<v>Generated_Source\PSoC5\IRInput_aliases.h</v>
+<v>Generated_Source\PSoC5\IRInput.c</v>
+<v>Generated_Source\PSoC5\IRInput.h</v>
+<v>Generated_Source\PSoC5\UART.c</v>
+<v>Generated_Source\PSoC5\UART.h</v>
+<v>Generated_Source\PSoC5\UART_PM.c</v>
+<v>Generated_Source\PSoC5\UART_INT.c</v>
+<v>Generated_Source\PSoC5\UART_BOOT.c</v>
+<v>Generated_Source\PSoC5\DecoderShiftReg.c</v>
+<v>Generated_Source\PSoC5\DecoderShiftReg.h</v>
+<v>Generated_Source\PSoC5\DecoderShiftReg_PM.c</v>
+<v>Generated_Source\PSoC5\bitEdge_aliases.h</v>
+<v>Generated_Source\PSoC5\bitEdge.c</v>
+<v>Generated_Source\PSoC5\bitEdge.h</v>
+<v>Generated_Source\PSoC5\bitValue_aliases.h</v>
+<v>Generated_Source\PSoC5\bitValue.c</v>
+<v>Generated_Source\PSoC5\bitValue.h</v>
+<v>Generated_Source\PSoC5\IRDurationTimer.c</v>
+<v>Generated_Source\PSoC5\IRDurationTimer.h</v>
+<v>Generated_Source\PSoC5\IRDurationTimer_PM.c</v>
+<v>Generated_Source\PSoC5\isr_IR.c</v>
+<v>Generated_Source\PSoC5\isr_IR.h</v>
+<v>Generated_Source\PSoC5\pinIsrIR_aliases.h</v>
+<v>Generated_Source\PSoC5\pinIsrIR.c</v>
+<v>Generated_Source\PSoC5\pinIsrIR.h</v>
+<v>Generated_Source\PSoC5\UART_IntClock.c</v>
+<v>Generated_Source\PSoC5\UART_IntClock.h</v>
 <v>Generated_Source\PSoC5\cy_em_eeprom.c</v>
 <v>Generated_Source\PSoC5\cy_em_eeprom.h</v>
 <v>Generated_Source\PSoC5\cm3gcc.ld</v>
@@ -785,113 +806,6 @@
 <v>Generated_Source\PSoC5\cycodeshareimport.ld</v>
 <v>Generated_Source\PSoC5\cycodeshareexport.ld</v>
 <v>Generated_Source\PSoC5\cycodeshareimport.scat</v>
-<v>Generated_Source\PSoC5\led_aliases.h</v>
-<v>Generated_Source\PSoC5\led.c</v>
-<v>Generated_Source\PSoC5\led.h</v>
-<v>Generated_Source\PSoC5\PWM_1.c</v>
-<v>Generated_Source\PSoC5\PWM_1.h</v>
-<v>Generated_Source\PSoC5\PWM_1_PM.c</v>
-<v>Generated_Source\PSoC5\Clock_1.c</v>
-<v>Generated_Source\PSoC5\Clock_1.h</v>
-<v>Generated_Source\PSoC5\IRInput_aliases.h</v>
-<v>Generated_Source\PSoC5\IRInput.c</v>
-<v>Generated_Source\PSoC5\IRInput.h</v>
-<v>Generated_Source\PSoC5\IRValue_aliases.h</v>
-<v>Generated_Source\PSoC5\IRValue.c</v>
-<v>Generated_Source\PSoC5\IRValue.h</v>
-<v>Generated_Source\PSoC5\dffclk_aliases.h</v>
-<v>Generated_Source\PSoC5\dffclk.c</v>
-<v>Generated_Source\PSoC5\dffclk.h</v>
-<v>Generated_Source\PSoC5\CounterReset_aliases.h</v>
-<v>Generated_Source\PSoC5\CounterReset.c</v>
-<v>Generated_Source\PSoC5\CounterReset.h</v>
-<v>Generated_Source\PSoC5\timer_clock.c</v>
-<v>Generated_Source\PSoC5\timer_clock.h</v>
-<v>Generated_Source\PSoC5\SW1_aliases.h</v>
-<v>Generated_Source\PSoC5\SW1.c</v>
-<v>Generated_Source\PSoC5\SW1.h</v>
-<v>Generated_Source\PSoC5\q_aliases.h</v>
-<v>Generated_Source\PSoC5\q.c</v>
-<v>Generated_Source\PSoC5\q.h</v>
-<v>Generated_Source\PSoC5\PWM_2.c</v>
-<v>Generated_Source\PSoC5\PWM_2.h</v>
-<v>Generated_Source\PSoC5\PWM_2_PM.c</v>
-<v>Generated_Source\PSoC5\D5_aliases.h</v>
-<v>Generated_Source\PSoC5\D5.c</v>
-<v>Generated_Source\PSoC5\D5.h</v>
-<v>Generated_Source\PSoC5\Clock_2.c</v>
-<v>Generated_Source\PSoC5\Clock_2.h</v>
-<v>Generated_Source\PSoC5\ShiftReg_1.c</v>
-<v>Generated_Source\PSoC5\ShiftReg_1.h</v>
-<v>Generated_Source\PSoC5\ShiftReg_1_PM.c</v>
-<v>Generated_Source\PSoC5\UART_1.c</v>
-<v>Generated_Source\PSoC5\UART_1.h</v>
-<v>Generated_Source\PSoC5\UART_1_PM.c</v>
-<v>Generated_Source\PSoC5\UART_1_INT.c</v>
-<v>Generated_Source\PSoC5\UART_1_BOOT.c</v>
-<v>Generated_Source\PSoC5\UART_1_IntClock.c</v>
-<v>Generated_Source\PSoC5\UART_1_IntClock.h</v>
-<v>Generated_Source\PSoC5\UART.c</v>
-<v>Generated_Source\PSoC5\UART.h</v>
-<v>Generated_Source\PSoC5\UART_PM.c</v>
-<v>Generated_Source\PSoC5\UART_INT.c</v>
-<v>Generated_Source\PSoC5\UART_BOOT.c</v>
-<v>Generated_Source\PSoC5\UART_IntClock.c</v>
-<v>Generated_Source\PSoC5\UART_IntClock.h</v>
-<v>Generated_Source\PSoC5\Rx_1_aliases.h</v>
-<v>Generated_Source\PSoC5\Rx_1.c</v>
-<v>Generated_Source\PSoC5\Rx_1.h</v>
-<v>Generated_Source\PSoC5\PWM_3.c</v>
-<v>Generated_Source\PSoC5\PWM_3.h</v>
-<v>Generated_Source\PSoC5\PWM_3_PM.c</v>
-<v>Generated_Source\PSoC5\isr_IR.c</v>
-<v>Generated_Source\PSoC5\isr_IR.h</v>
-<v>Generated_Source\PSoC5\Clock_3.c</v>
-<v>Generated_Source\PSoC5\Clock_3.h</v>
-<v>Generated_Source\PSoC5\Clock_4.c</v>
-<v>Generated_Source\PSoC5\Clock_4.h</v>
-<v>Generated_Source\PSoC5\ShiftReg_2.c</v>
-<v>Generated_Source\PSoC5\ShiftReg_2.h</v>
-<v>Generated_Source\PSoC5\ShiftReg_2_PM.c</v>
-<v>Generated_Source\PSoC5\counterEdge_aliases.h</v>
-<v>Generated_Source\PSoC5\counterEdge.c</v>
-<v>Generated_Source\PSoC5\counterEdge.h</v>
-<v>Generated_Source\PSoC5\counterShiftIn_aliases.h</v>
-<v>Generated_Source\PSoC5\counterShiftIn.c</v>
-<v>Generated_Source\PSoC5\counterShiftIn.h</v>
-<v>Generated_Source\PSoC5\pinCounterReset_aliases.h</v>
-<v>Generated_Source\PSoC5\pinCounterReset.c</v>
-<v>Generated_Source\PSoC5\pinCounterReset.h</v>
-<v>Generated_Source\PSoC5\pinCounterShiftIn_aliases.h</v>
-<v>Generated_Source\PSoC5\pinCounterShiftIn.c</v>
-<v>Generated_Source\PSoC5\pinCounterShiftIn.h</v>
-<v>Generated_Source\PSoC5\bitEdge_aliases.h</v>
-<v>Generated_Source\PSoC5\bitEdge.c</v>
-<v>Generated_Source\PSoC5\bitEdge.h</v>
-<v>Generated_Source\PSoC5\bitValue_aliases.h</v>
-<v>Generated_Source\PSoC5\bitValue.c</v>
-<v>Generated_Source\PSoC5\bitValue.h</v>
-<v>Generated_Source\PSoC5\DecoderShiftReg.c</v>
-<v>Generated_Source\PSoC5\DecoderShiftReg.h</v>
-<v>Generated_Source\PSoC5\DecoderShiftReg_PM.c</v>
-<v>Generated_Source\PSoC5\Count7_1.c</v>
-<v>Generated_Source\PSoC5\Count7_1.h</v>
-<v>Generated_Source\PSoC5\Count7_1_PM.c</v>
-<v>Generated_Source\PSoC5\Counter_1.c</v>
-<v>Generated_Source\PSoC5\Counter_1.h</v>
-<v>Generated_Source\PSoC5\Counter_1_PM.c</v>
-<v>Generated_Source\PSoC5\EdgeCounter.c</v>
-<v>Generated_Source\PSoC5\EdgeCounter.h</v>
-<v>Generated_Source\PSoC5\EdgeCounter_PM.c</v>
-<v>Generated_Source\PSoC5\IRDurationTimer.c</v>
-<v>Generated_Source\PSoC5\IRDurationTimer.h</v>
-<v>Generated_Source\PSoC5\IRDurationTimer_PM.c</v>
-<v>Generated_Source\PSoC5\pinIsrIR_aliases.h</v>
-<v>Generated_Source\PSoC5\pinIsrIR.c</v>
-<v>Generated_Source\PSoC5\pinIsrIR.h</v>
-<v>Generated_Source\PSoC5\debug1_aliases.h</v>
-<v>Generated_Source\PSoC5\debug1.c</v>
-<v>Generated_Source\PSoC5\debug1.h</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
@@ -901,7 +815,7 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="131755672067459147" />
+<deps_time v="131755690668927492" />
 <top_block v="TopDesign" />
 <last_generation v="3" />
 <pdl_path v="" />
